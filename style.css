@@ -1,0 +1,65 @@
+html{
+  height: 100%;
+  width: 100%;
+}
+
+body{
+    background-image: radial-gradient(circle, green, lightblue);
+    min-height: 100%;
+    display: flex;
+    flex-direction: column;
+    margin: auto;
+    width: 90%;
+    max-width: 1000px;
+    
+    
+}
+
+
+    h1{
+    font-size: 5em;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+    position: absolute;
+    top: 30%;
+    left: 50%;
+    transform:translateX(-50%) translateY(-50%);
+        text-decoration-line: underline;
+        text-decoration-color: darkslategray;
+        font-family: inherit;
+        color: antiquewhite;
+}
+    
+
+h2{
+    font-size: 3em;
+    margin: 3;
+    padding: 1;
+    text-align: center;
+    position: absolute;
+    top: 55%;
+    left: 52%;
+    transform:translateX(-60%) translateY(-60%);
+    color: darkslategray;
+    font-family: inherit;
+    
+    
+} 
+
+p{
+    text-align: center;
+    position: absolute;
+    font-size: 1.30em;
+    margin: 2;
+    padding: 2;
+    position: absolute;
+    top: 70%;
+    left: 52%;
+    color: antiquewhite;
+    transform:translateX(-60%) translateY(-60%);
+    font-family: inherit;
+}
+    
+    
+    
